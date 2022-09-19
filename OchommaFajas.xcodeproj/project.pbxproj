@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA910B28D8790B0091D685 /* OchommaFajasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA910A28D8790B0091D685 /* OchommaFajasApp.swift */; };
+		CEDA910D28D8790B0091D685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA910C28D8790B0091D685 /* ContentView.swift */; };
+		CEDA910F28D8790E0091D685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA910E28D8790E0091D685 /* Assets.xcassets */; };
+		CEDA911228D8790E0091D685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA911128D8790E0091D685 /* Preview Assets.xcassets */; };
+		CEDA911C28D8790F0091D685 /* OchommaFajasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA911B28D8790F0091D685 /* OchommaFajasTests.swift */; };
+		CEDA912628D8790F0091D685 /* OchommaFajasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA912528D8790F0091D685 /* OchommaFajasUITests.swift */; };
+		CEDA912828D8790F0091D685 /* OchommaFajasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA912728D8790F0091D685 /* OchommaFajasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDA911828D8790F0091D685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA90FF28D8790B0091D685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA910628D8790B0091D685;
+			remoteInfo = OchommaFajas;
+		};
+		CEDA912228D8790F0091D685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA90FF28D8790B0091D685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA910628D8790B0091D685;
+			remoteInfo = OchommaFajas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDA910728D8790B0091D685 /* OchommaFajas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OchommaFajas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA910A28D8790B0091D685 /* OchommaFajasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OchommaFajasApp.swift; sourceTree = "<group>"; };
+		CEDA910C28D8790B0091D685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDA910E28D8790E0091D685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA911128D8790E0091D685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDA911728D8790F0091D685 /* OchommaFajasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OchommaFajasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA911B28D8790F0091D685 /* OchommaFajasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OchommaFajasTests.swift; sourceTree = "<group>"; };
+		CEDA912128D8790F0091D685 /* OchommaFajasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OchommaFajasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA912528D8790F0091D685 /* OchommaFajasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OchommaFajasUITests.swift; sourceTree = "<group>"; };
+		CEDA912728D8790F0091D685 /* OchommaFajasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OchommaFajasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA910428D8790B0091D685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911428D8790F0091D685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911E28D8790F0091D685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA90FE28D8790B0091D685 = {
+			isa = PBXGroup;
+			children = (
+				CEDA910928D8790B0091D685 /* OchommaFajas */,
+				CEDA911A28D8790F0091D685 /* OchommaFajasTests */,
+				CEDA912428D8790F0091D685 /* OchommaFajasUITests */,
+				CEDA910828D8790B0091D685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA910828D8790B0091D685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA910728D8790B0091D685 /* OchommaFajas.app */,
+				CEDA911728D8790F0091D685 /* OchommaFajasTests.xctest */,
+				CEDA912128D8790F0091D685 /* OchommaFajasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA910928D8790B0091D685 /* OchommaFajas */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA910A28D8790B0091D685 /* OchommaFajasApp.swift */,
+				CEDA910C28D8790B0091D685 /* ContentView.swift */,
+				CEDA910E28D8790E0091D685 /* Assets.xcassets */,
+				CEDA911028D8790E0091D685 /* Preview Content */,
+			);
+			path = OchommaFajas;
+			sourceTree = "<group>";
+		};
+		CEDA911028D8790E0091D685 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA911128D8790E0091D685 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDA911A28D8790F0091D685 /* OchommaFajasTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA911B28D8790F0091D685 /* OchommaFajasTests.swift */,
+			);
+			path = OchommaFajasTests;
+			sourceTree = "<group>";
+		};
+		CEDA912428D8790F0091D685 /* OchommaFajasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA912528D8790F0091D685 /* OchommaFajasUITests.swift */,
+				CEDA912728D8790F0091D685 /* OchommaFajasUITestsLaunchTests.swift */,
+			);
+			path = OchommaFajasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA910628D8790B0091D685 /* OchommaFajas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA912B28D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajas" */;
+			buildPhases = (
+				CEDA910328D8790B0091D685 /* Sources */,
+				CEDA910428D8790B0091D685 /* Frameworks */,
+				CEDA910528D8790B0091D685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OchommaFajas;
+			productName = OchommaFajas;
+			productReference = CEDA910728D8790B0091D685 /* OchommaFajas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDA911628D8790F0091D685 /* OchommaFajasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA912E28D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajasTests" */;
+			buildPhases = (
+				CEDA911328D8790F0091D685 /* Sources */,
+				CEDA911428D8790F0091D685 /* Frameworks */,
+				CEDA911528D8790F0091D685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA911928D8790F0091D685 /* PBXTargetDependency */,
+			);
+			name = OchommaFajasTests;
+			productName = OchommaFajasTests;
+			productReference = CEDA911728D8790F0091D685 /* OchommaFajasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDA912028D8790F0091D685 /* OchommaFajasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA913128D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajasUITests" */;
+			buildPhases = (
+				CEDA911D28D8790F0091D685 /* Sources */,
+				CEDA911E28D8790F0091D685 /* Frameworks */,
+				CEDA911F28D8790F0091D685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA912328D8790F0091D685 /* PBXTargetDependency */,
+			);
+			name = OchommaFajasUITests;
+			productName = OchommaFajasUITests;
+			productReference = CEDA912128D8790F0091D685 /* OchommaFajasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA90FF28D8790B0091D685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEDA910628D8790B0091D685 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CEDA911628D8790F0091D685 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CEDA910628D8790B0091D685;
+					};
+					CEDA912028D8790F0091D685 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CEDA910628D8790B0091D685;
+					};
+				};
+			};
+			buildConfigurationList = CEDA910228D8790B0091D685 /* Build configuration list for PBXProject "OchommaFajas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA90FE28D8790B0091D685;
+			productRefGroup = CEDA910828D8790B0091D685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA910628D8790B0091D685 /* OchommaFajas */,
+				CEDA911628D8790F0091D685 /* OchommaFajasTests */,
+				CEDA912028D8790F0091D685 /* OchommaFajasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA910528D8790B0091D685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA911228D8790E0091D685 /* Preview Assets.xcassets in Resources */,
+				CEDA910F28D8790E0091D685 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911528D8790F0091D685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911F28D8790F0091D685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA910328D8790B0091D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA910D28D8790B0091D685 /* ContentView.swift in Sources */,
+				CEDA910B28D8790B0091D685 /* OchommaFajasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911328D8790F0091D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA911C28D8790F0091D685 /* OchommaFajasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA911D28D8790F0091D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA912628D8790F0091D685 /* OchommaFajasUITests.swift in Sources */,
+				CEDA912828D8790F0091D685 /* OchommaFajasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDA911928D8790F0091D685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA910628D8790B0091D685 /* OchommaFajas */;
+			targetProxy = CEDA911828D8790F0091D685 /* PBXContainerItemProxy */;
+		};
+		CEDA912328D8790F0091D685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA910628D8790B0091D685 /* OchommaFajas */;
+			targetProxy = CEDA912228D8790F0091D685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA912928D8790F0091D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA912A28D8790F0091D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDA912C28D8790F0091D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OchommaFajas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDA912D28D8790F0091D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OchommaFajas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDA912F28D8790F0091D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OchommaFajas.app/OchommaFajas";
+			};
+			name = Debug;
+		};
+		CEDA913028D8790F0091D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OchommaFajas.app/OchommaFajas";
+			};
+			name = Release;
+		};
+		CEDA913228D8790F0091D685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OchommaFajas;
+			};
+			name = Debug;
+		};
+		CEDA913328D8790F0091D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nkemProject.OchommaFajasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OchommaFajas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA910228D8790B0091D685 /* Build configuration list for PBXProject "OchommaFajas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA912928D8790F0091D685 /* Debug */,
+				CEDA912A28D8790F0091D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA912B28D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA912C28D8790F0091D685 /* Debug */,
+				CEDA912D28D8790F0091D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA912E28D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA912F28D8790F0091D685 /* Debug */,
+				CEDA913028D8790F0091D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA913128D8790F0091D685 /* Build configuration list for PBXNativeTarget "OchommaFajasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA913228D8790F0091D685 /* Debug */,
+				CEDA913328D8790F0091D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA90FF28D8790B0091D685 /* Project object */;
+}
